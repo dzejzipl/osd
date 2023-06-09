@@ -5,6 +5,6 @@ install-module OSD -Force -SkipPublisherCheck
 import-module OSD -Force
 
 write-host -ForegroundColor Green "Start OSDCloud"
-Start-OSDCloud -FindImageFile -OSImageIndex 1 -ZTI
+Start-OSDCloud -FindImageFile -ZTI
 
 wpeutil reboot
